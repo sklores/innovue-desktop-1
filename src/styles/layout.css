@@ -1,0 +1,79 @@
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f2f4f7;
+}
+
+.app-shell__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dfe3e8;
+}
+
+.app-shell__brand {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.app-shell__logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #d9dee6;
+}
+
+.app-shell__client-name {
+  font-weight: 600;
+}
+
+.app-shell__client-subtitle {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.app-shell__status {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.app-shell__body {
+  display: flex;
+  flex: 1;
+}
+
+.app-shell__primary-nav {
+  width: 220px;
+  padding: 1.5rem 1rem;
+  background-color: #ffffff;
+  border-right: 1px solid #dfe3e8;
+}
+
+.app-shell__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.app-shell__secondary-nav {
+  background-color: #ffffff;
+  padding: 0.75rem 1rem;
+  border: 1px solid #dfe3e8;
+  border-radius: 6px;
+}
+
+.app-shell__page {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border: 1px solid #dfe3e8;
+  border-radius: 6px;
+}
